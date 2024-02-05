@@ -1,0 +1,38 @@
+\begin{thebibliography}{1}
+
+\bibitem{whatBLDC}
+{Taiwan Oriental Motor Co., Ltd}.
+\newblock 第28回 「何謂dc無刷馬達？」.
+\newblock \url{https://www.orientalmotor.com.tw/teruyo_det/teruyo_28/}, 2024.
+
+\bibitem{BLDCtheory1}
+{DMP Electronics Inc}.
+\newblock Roboard 研習營 馬達 基本認識 與 bldc 驅動實驗.
+\newblock \url{https://www.slideserve.com/billy/roboard-bldc}, 2014.
+
+\bibitem{BLDCtheory2}
+國立成功大學馬達科技研究中心.
+\newblock 直流無刷馬達.
+\newblock \url{http://km.emotors.ncku.edu.tw/emotor/worklog/EMTRC/motor_learn/elearning/motor/1/lecture_1.4.pdf}, n.d.
+
+\bibitem{whatHall}
+Manny Soltero.
+\newblock 什麼是霍爾效應感測器？.
+\newblock \url{https://e2e.ti.com/blogs_/taiwan/b/taiwan1/posts/what-is-a-hall-effect-sensor}, 2021.
+
+\bibitem{whatMosfet}
+Components101.
+\newblock Fundamentals of mosfets and their working.
+\newblock \url{https://components101.com/articles/mosfet-symbol-working-operation-types-and-applications}, 2020.
+
+\bibitem{Fidget_Spinner_Motors}
+D.~Bodnar.
+\newblock Fidget spinner motors.
+\newblock \url{http://trainelectronics.com/FidgetSpinner/}, 2018.
+
+\bibitem{BLmoterVideo}
+{Creative Think}.
+\newblock Making 6 core permanent magnetic motor.
+\newblock \url{https://youtu.be/4tTS13WZG2A}, 2023.
+
+\end{thebibliography}
