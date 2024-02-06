@@ -28,6 +28,7 @@
 \usepackage{setspace}
 \usepackage{float}
 \usepackage{caption}
+\usepackage{apacite}
 
 \captionsetup{belowskip=0.5ex}
 
@@ -44,7 +45,6 @@
 \pretitle{\begin{center}\LARGE\bfseries\vspace*{\fill}}
 \posttitle{\end{center}\vskip 0.5em\vfill}
 
-%TODO: 重新校稿
 \begin{document}
 \begin{CJK*}{UTF8}{bkai}
     \setlist[enumerate]{leftmargin=2em}
@@ -64,10 +64,13 @@
 
     \pagenumbering{roman}
 
-    %TODO: 寫摘要
     \renewcommand{\abstractnamefont}{\normalfont\Large\bfseries}
     \begin{abstract}
-        This is the abstract of the document. It provides a brief summary of the content of the document.This is the abstract of the document. It provides a brief summary of the content of the document.This is the abstract of the document. It provides a brief summary of the content of the document.
+        本文首先介紹了工程製圖的學習過程，包括使用Autodesk Inventor軟體繪製草圖和製作模型。接著，文中敘述了基礎電學的學習內容，涵蓋了N型與P型半導體的差異、電晶體原理、達靈頓電路等知識。
+
+        而後則是無刷馬達的專題製作，此專案的主要目標是設計並製作一個在25W轉速達10000rpm的馬達，並且深入了解各種影響轉速的參數以及電子元件的原理。文中詳細地記錄了專案的分工、進度表、資料搜集、零件清單（BOM表）等詳細信息。在製作過程中，作者參與了馬達的3D建模、控制電路設計與製作，並進行了調校分析，以優化馬達的性能。最終，團隊通過實際測試證明其效能，成功製作出25W轉速高達15000rpm的馬達。
+
+        最後，作者反思了整個學習過程，表示透過這次專題，不僅對無刷馬達的設計和製作有了深入的了解，也對電子、電路學等領域產生了更多興趣。文章同時也提及作者利用這次機會學習了\LaTeX 排版技巧，為未來的學術研究打下基礎。
     \end{abstract}
 
     \newpage
@@ -99,7 +102,7 @@
 
     \section{基礎電學}
 
-    在這個部分老師除了告訴我們之後製作無刷馬達所需知識外，也向我們科普了許多相關知識，例如N型與P型半導體的差異、電晶體原理、達靈頓電路、電動勢與反向電動勢等。而以下便一一列舉。
+    在這個部分老師除了告訴我們之後製作無刷馬達所需知識外，也向我們科普了許多相關知識，例如N型與P型半導體的差異、電晶體原理、達靈頓電路，以下便一一列舉。
 
     \subsection{半導體}
     \begin{enumerate}
@@ -107,16 +110,25 @@
         \item P型半導體：在半導體材料中，摻雜了能提供正電洞的雜質，這些正電洞可以自由移動，因此P型半導體的導電性較純淨的半導體高，而其電洞濃度亦較高。
     \end{enumerate}
 
-    \subsection{電晶體與二極體}
+    \subsection{電晶體}
     \begin{enumerate}
-        \item 電晶體：電晶體是一種半導體元件，由三個半導體層組成，分別是基極、發射極和集極。當基極與發射極之間的電壓大於一定值時，電晶體便會開啟，並且能夠控制大電流。
-        \item 二極體：二極體是一種半導體元件，由P型半導體和N型半導體組成，當二極體的極性與電壓方向一致時，電流能夠通過，反之則無法通過。
+        \item 二極體：一種基本的半導體元件，主要由P型和N型半導體材料構成。其工作原理是當二極體正向偏壓時，即P型半導體連接正極，N型半導體連接負極時，電流可以流過二極體；反向偏壓則阻止電流流過。
+        \item BJT（雙極性接面電晶體）：由兩個PN接面組成，分為NPN和PNP兩種類型。以NPN型為例，當基極（Base）接收小電流，它會控制從發射極（Emitter）到集極（Collector）的大電流。基極至發射極接面正向偏壓，而集極至基極接面反向偏壓。這使得發射極的電子被吸引到基極，進而流向正向偏壓的集極，從而產生放大效果。
+        \item FET（場效應電晶體）：主要通過電壓來控制電流，其結構包括源極（Source）、閘極（Gate）和汲極（Drain）。當閘極施加正電壓時，會在源極和汲極之間形成一個導電通道。電子從源極流向汲極，通過閘極電壓的控制來調節這個通道的導電性，從而控制電流流動。
     \end{enumerate}
 
+    \newpage
     \subsection{達靈頓電路}
     \begin{enumerate}
         \item 介紹：達靈頓電路是一種由兩個電晶體組成的放大電路，能夠將輸入的微弱電流放大成較大的電流。
         \item 原理：當輸入電流通過第一個電晶體時，會使得第一個電晶體開啟，並且將電流放大，進而使得第二個電晶體開啟，並且將電流再次放大，最後輸出的電流會是輸入電流的數倍，因此若手指觸碰到輸入端，人體的微弱電流便能夠使得達靈頓電路輸出較大的電流，進而點亮燈泡。
+        \item 電路圖如Figure \ref{fig:darlington_circuit}
+              \begin{figure}[h]
+                  \centering
+                  \includegraphics[width=0.7\textwidth]{./images/darlington_circuit.png}
+                  \caption{達靈頓電路圖}
+                  \label{fig:darlington_circuit}
+              \end{figure}
         \item 實作如Figure \ref{fig:darlington}
               \begin{figure}[h]
                   \centering
@@ -126,14 +138,6 @@
                   \label{fig:darlington}
               \end{figure}
     \end{enumerate}
-
-    % TODO: 看這些東東
-    % ! https://youtu.be/dwOe3r_wNDM?list=PLTQ2T0cDHYPcVTYiq7vixt4-AMp2wIFG5
-    % ! https://youtu.be/mc979OhitAg?list=PLWv9VM947MKjuqlJVp5m_Edf66SrFSHx2
-    % ! https://youtu.be/6Iqhx56RaXQ?list=PLTQ2T0cDHYPcVTYiq7vixt4-AMp2wIFG5
-    % ! https://www.qsl.net/bv3fg/tech/BJTds.htm
-    \subsection{電動勢與反向電動勢}
-
     \newpage
 
     \section{無刷馬達專題}
@@ -214,22 +218,22 @@
         \end{center}
     \end{table}
     \subsection{資料搜集}
-    \begin{enumerate}
+    \begin{enumerate}\setstretch{1.63}
         \item 電磁科學(ME)
               \subitem 為了瞭解那些參數對轉子的轉速有影響，我們決定引入高二物理學過的轉動公式，可以知道在功率固定的情形下，必須使轉動慣量減小，而藉由微調半徑與質量等參數，能夠有效使轉速提升。再者，磁力也是決定轉速的一大參數，由高三所學過的必歐-沙伐定律可以知道磁力與電流一次方正比且與半徑一次方反比。綜上所述，藉由參數的調整，能夠使馬達狀態最佳化。
         \item 馬達工程(QT)：
               \begin{enumerate}
-                  \item 有刷馬達與無刷馬達的差異：無刷馬達使用電子元件驅動，無需維護，並提供穩定轉速。有刷馬達則因碳刷與整流子接觸磨損需維護。無刷馬達優勢包括維護低、速度穩定、轉矩平穩、功率大。 \cite{whatBLDC}
+                  \item 有刷馬達與無刷馬達的差異：無刷馬達使用電子元件驅動，無需維護，提供穩定轉速。有刷馬達則因碳刷與整流子接觸磨損需維護。無刷馬達優勢有維護低、速度穩定、轉矩平穩、功率大。 \cite{whatBLDC}
                   \item 直流無刷馬達原理： 直流無刷馬達（BLDC）的原理主要涉及馬達的基礎構造與運轉原理。這類馬達通常由定子（Stator）和轉子（Rotor）組成，並在定子和轉子間留有一定的空氣間隙。BLDC不使用電刷進行電流換相，轉速由繞組線圈的電壓決定。這類馬達需要透過驅動電路將直流電轉換成三相電流來運作。此外，BLDC的驅動方式，包括使用橋式電路與功率開關進行三相的電流換相，並透過霍爾元件偵測馬達永磁轉子的角度。\cite{BLDCtheory1,BLDCtheory2}
               \end{enumerate}
         \item 電子元件(EE)：
               \begin{enumerate}
                   \item 霍爾IC：一種能準確監測磁場變化的裝置，適合用於感測物件位置與移動。其核心是霍爾元件，能將磁場轉換為電壓，並透過處理電路如運算放大器來強化信號。這種感測器可以分為數位輸出的霍爾效應開關、鎖存IC，以及類比輸出的線性霍爾效應感測器，各自有不同的應用範圍。該技術廣泛應用於各種設備，如筆記型電腦、冰箱門，以及馬達位置監測等。\cite{whatHall}
-                  \item MOSFET：一種四端子的高輸入阻抗半導體元件，包括漏極（D）、源極（S）、閘極（G）和基體（B）。它們有增強型和耗盡型兩大類型，並根據導體材料進一步分為N通道和P通道。MOSFET在電子電路中通常用作開關或放大器，並且具有不同的封裝類型，以適應不同的應用需求。 \cite{whatMosfet}
+                  \item MOSFET：一種四端子的高輸入阻抗半導體元件，包括汲極（D）、源極（S）、閘極（G）和基體（B）。它們有增強型和耗盡型兩大類型，並根據導體材料進一步分為N通道和P通道。MOSFET在電子電路中通常用作開關或放大器，並且具有不同的封裝類型，以適應不同的應用需求。 \cite{whatMosfet}
               \end{enumerate}
         \item 自製馬達範例(ID、EE)：
               \begin{enumerate}
-                  \item 指尖陀螺轉化為電動馬達的方法，涵蓋從基本到進階的設計，並運用元件如電磁鐵、霍爾感知器和光學感應器，同時也提供相關電路和測速方式 \cite{Fidget_Spinner_Motors}
+                  \item 指尖陀螺轉化為電動馬達的方法，解說設計，並運用元件如電磁鐵、霍爾感知器和光學感應器，同時也提供相關電路和測速方式 \cite{Fidget_Spinner_Motors}
                   \item 在前文電磁科學的相關資料搜集後，應該要讓磁鐵與電磁鐵在同一平面上才能使馬達轉得更快，因此我們參考了一些自製馬達的範例，並且在此基礎上進行改良 \cite{BLmoterVideo}
               \end{enumerate}
     \end{enumerate}
@@ -362,13 +366,13 @@
         \centering
         \begin{tabularx}{\textwidth}{|X|l|X|}
             \hline
-            問題描述                                                                         & 轉速RPM & 擬修正說明                                                \\
+            問題描述                                                                         & 轉速(rpm) & 擬修正說明                                                \\
             \hline
-            從轉子側邊放置霍爾感知器，霍爾接近與遠離磁鐵時，電流有產生改變，但嘗試許久仍無法作動                                   & 0     & 可感測區域太小，試著將霍爾感知器移到轉子上方                               \\
+            從轉子側邊放置霍爾感知器，霍爾接近與遠離磁鐵時，電流有產生改變，但嘗試許久仍無法作動                                   & 0       & 可感測區域太小，試著將霍爾感知器移到轉子上方                               \\
             \hline
-            成功轉動，但因仍是使用手持霍爾感知器因此無法穩定加速                                                   & 13000 & 先找到測試時能使轉子最快的大致位置，再利用膠帶將霍爾感知器固定在設計的固定架上，試圖不斷微調找到最佳位置 \\
+            成功轉動，但因仍是使用手持霍爾感知器因此無法穩定加速                                                   & 13000   & 先找到測試時能使轉子最快的大致位置，再利用膠帶將霍爾感知器固定在設計的固定架上，試圖不斷微調找到最佳位置 \\
             \hline
-            轉速略趨穩定，但在加速過程中發現電流與電壓非恆定，似乎會隨轉速加速而不斷變化，因此很容易超過規定25W之規範，且發現在超過20W後轉速的變化就越來越小。 & 15000 & 可能能設計出自動的電壓調節器恆定瓦數，並利用視波器觀察反項電動式等會降低轉速之因素。           \\
+            轉速略趨穩定，但在加速過程中發現電流與電壓非恆定，似乎會隨轉速加速而不斷變化，因此很容易超過規定25W之規範，且發現在超過20W後轉速的變化就越來越小。 & 15000   & 可能能設計出自動的電壓調節器恆定瓦數，並利用視波器觀察反向電動式等會降低轉速之因素。           \\
             \hline
         \end{tabularx}
         \caption{測試過程}
@@ -376,7 +380,7 @@
 
     \newpage
     \subsection{成果展示}
-    各角度的照片與實測過程如Figure \ref{fig:demo}，實測影片於\href{https://youtu.be/jbmlMec0Nww}{\textbf{此連結}}。重新回顧本專案目標(見\ref{sec:goal})，我們成功地設計與製作了一個在25W轉速高達15000rpm效能的馬達，並且在製作過程中，我們也學習到了各種電子元件的動作原理，熟練建模軟體，活用加工工具，並且編寫了完整報告，其中美中不足的是原先想利用Arduino進行轉速測量因時間不足而未能完成，只能改用手持測速器量測，但在人手不足的情況下，能夠達成如此成果，我們仍然感到非常滿意。
+    各角度的照片與實測過程如Figure \ref{fig:demo}，實測影片於\href{https://youtu.be/jbmlMec0Nww}{\textbf{此連結}}。重新回顧本專案目標(見\ref{sec:goal})，我們成功地設計與製作了一個在25W轉速高達15000rpm效能的馬達，並且在製作過程中，我們也學習到了各種電子元件的動作原理，熟練建模軟體，活用加工工具，並且編寫了完整報告，其中美中不足的是原先想利用Arduino讀取霍爾IC訊號，並在LCD上呈現轉速，但因時間不足而未能完成，只能改用手持測速器量測，但在人手不足的情況下，能夠達成如此成果，我們仍然感到非常滿意。
 
     \begin{figure}[h]
         \centering
@@ -404,7 +408,7 @@
             \hline
             活用加工工具協助專題製作                  & 完成  \\
             \hline
-            設計測速工具協助觀察馬達運作                & 未完成 \\
+            設計測速工具協助觀察馬達運作                & 部分完成 \\
             \hline
             體驗專題製作歷程並編寫完整報告               & 完成  \\
             \hline
@@ -414,15 +418,17 @@
     \renewcommand{\arraystretch}{1}
     \newpage
     \section{心得與反思}
-    在課程中，我學習到一個無刷馬達是從無到有建構出來的，與以往製作專案不同，並非直接使用現成的套件拼湊，工程設計這堂課老師帶我們從半導體的原理，告訴我們何為N型、P型半導體，又是如何將排列組合作出二極體、電晶體，做出控制電流方向，甚至在達靈頓電路中更是直接感受到其能讓微弱電流增強的效果。在後續無刷馬達的電路中，運用先前所學，自己從頭做一塊電路板，通電，測試，最後馬達真的轉起來，這遠比Arduino拿一塊L298N控制馬達所帶來的成就感大多了。
+    在課程中，我學習到一個無刷馬達是從無到有建構出來的，與以往製作專案不同，並非直接使用現成的套件拼湊，工程設計這堂課老師帶我們從半導體的原理，告訴我們何為N型、P型半導體，又是如何將排列組合作出二極體、電晶體，做出控制電流方向，甚至在達靈頓電路中更是直接感受到其能讓微弱電流增強的效果。
+
+    在進行無刷馬達的專題時，起初只對有刷馬達的原理、安培定律、螺線管和力矩等在物理課上學過的概念有所了解，但對應該如何實作，卻是毫無頭緒，不過在我們開始逐步確定各種參數，如葉片數量、半徑和形狀，並以最大化轉子速率為目標，我們發現轉子的質量（越小越好）、半徑（越小越好）對轉速的影響最大。另一方面，為了減小氣隙，我們將線圈和轉子平行擺放，如此不僅能減小氣隙，還可以最大化磁鐵接收的磁力線。最後，還有自己焊接的電路板，從了解各個零組件的工作原理、電路作動過程、焊接技巧，運用所學從零開始製作一塊電路板，然後通電並進行測試，當一切準備就緒，馬達最終真的開始轉動時，所感到的成就感遠非控制現成馬達所能相提並論的。
 
     我很感謝在我探索電機的道路上有這段旅程，比起先前只是知道不同無刷馬達可能會因為不同廠牌的調校，在扭力、轉速上會有不同的表現，我更了解各種影響馬達的因素，氣隙、磁鐵、轉子、定子......各種要素互相影響，讓我能在未來挑選馬達時，有了更多切入的觀點，也在這段時間的學習中，讓我逐漸想在未來更深入了解電子、電路學的相關知識。
 
-    此外，我因為考量到未來寫文章可能會頻繁使用\LaTeX，所以藉這次機會使用\LaTeX 撰寫本文（\href{https://github.com/moon-jam/engineering_design_learning_portfolio}{\bf{原始檔案}}），也在此過程中學習到許多排版技巧，相信對我未來的學術研究有很大的幫助。
+    此外，在這次的專題製作過程中，我不僅深入了解了工程設計的各個方面，在書寫本文時，因為考量到未來寫文章可能會頻繁使用\LaTeX 這一強大的文檔排版系統，所以藉這此機會使用它（\href{https://github.com/moon-jam/engineering_design_learning_portfolio}{\bf{本文\LaTeX 原始檔案}}）。不過學習他的過程是困難重重，光是為了在本地端架設環境在VSCode上運行就耗費數個小時，而它的語法和排版規則也與我過去使用的文字處理軟體不同，他就像是簡化版的HTML，不過隨著我逐步深入學習，理解\LaTeX 的基本結構、命令語法、管理文獻參考和引用，最後產出此文。總的來說，學習\LaTeX 雖然起初感到困難，但隨著練習和時間的積累，我體會到\LaTeX 在學術寫作和專業文檔排版中的強大功能和靈活性，也相信其對我未來撰寫論文等學術研究中會有很大的幫助。
 
     \newpage
     \nocite{*}
-    \bibliographystyle{unsrt}
+    \bibliographystyle{apacite}
     \addcontentsline{toc}{section}{References}
     \bibliography{references}
 

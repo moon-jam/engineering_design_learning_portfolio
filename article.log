@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2024.2.3)  6 FEB 2024 00:17
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2024.2.3)  6 FEB 2024 12:37
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -419,95 +419,103 @@ Package caption Info: Standard document class detected.
 \c@continuedfloat=\count291
 Package caption Info: float package is loaded.
 Package caption Info: hyperref package is loaded.
+) (/usr/local/texlive/2023basic/texmf-dist/tex/latex/apacite/apacite.sty
+Package: apacite 2013/07/21 v6.03 APA citation
+\c@BibCnt=\count292
+\bibleftmargin=\skip78
+\bibindent=\skip79
+\bibparsep=\skip80
+\bibitemsep=\skip81
+\biblabelsep=\skip82
 ) (/usr/local/texlive/2023basic/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
 File: l3backend-pdftex.def 2023-01-16 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count292
+\l__color_backend_stack_int=\count293
 \l__pdf_internal_box=\box60
 ) (./article.aux)
 \openout1 = `article.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 48.
-LaTeX Font Info:    ... okay on input line 48.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 48.
-LaTeX Font Info:    ... okay on input line 48.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 48.
-LaTeX Font Info:    ... okay on input line 48.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 48.
-LaTeX Font Info:    ... okay on input line 48.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 48.
-LaTeX Font Info:    ... okay on input line 48.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 48.
-LaTeX Font Info:    ... okay on input line 48.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 48.
-LaTeX Font Info:    ... okay on input line 48.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 48.
-LaTeX Font Info:    ... okay on input line 48.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 48.
-LaTeX Font Info:    ... okay on input line 48.
-LaTeX Font Info:    Checking defaults for C00/song/m/n on input line 48.
-LaTeX Font Info:    ... okay on input line 48.
-LaTeX Font Info:    Checking defaults for C05/song/m/n on input line 48.
-LaTeX Font Info:    ... okay on input line 48.
-LaTeX Font Info:    Checking defaults for C09/song/m/n on input line 48.
-LaTeX Font Info:    ... okay on input line 48.
-LaTeX Font Info:    Checking defaults for C10/song/m/n on input line 48.
-LaTeX Font Info:    ... okay on input line 48.
-LaTeX Font Info:    Checking defaults for C20/song/m/n on input line 48.
-LaTeX Font Info:    ... okay on input line 48.
-LaTeX Font Info:    Checking defaults for C19/song/m/n on input line 48.
-LaTeX Font Info:    ... okay on input line 48.
-LaTeX Font Info:    Checking defaults for C40/song/m/n on input line 48.
-LaTeX Font Info:    ... okay on input line 48.
-LaTeX Font Info:    Checking defaults for C42/song/m/n on input line 48.
-LaTeX Font Info:    ... okay on input line 48.
-LaTeX Font Info:    Checking defaults for C43/song/m/n on input line 48.
-LaTeX Font Info:    ... okay on input line 48.
-LaTeX Font Info:    Checking defaults for C50/song/m/n on input line 48.
-LaTeX Font Info:    ... okay on input line 48.
-LaTeX Font Info:    Checking defaults for C52/song/m/n on input line 48.
-LaTeX Font Info:    ... okay on input line 48.
-LaTeX Font Info:    Checking defaults for C49/song/m/n on input line 48.
-LaTeX Font Info:    ... okay on input line 48.
-LaTeX Font Info:    Checking defaults for C60/mj/m/n on input line 48.
-LaTeX Font Info:    ... okay on input line 48.
-LaTeX Font Info:    Checking defaults for C61/mj/m/n on input line 48.
-LaTeX Font Info:    ... okay on input line 48.
-LaTeX Font Info:    Checking defaults for C63/mj/m/n on input line 48.
-LaTeX Font Info:    ... okay on input line 48.
-LaTeX Font Info:    Checking defaults for C64/mj/m/n on input line 48.
-LaTeX Font Info:    ... okay on input line 48.
-LaTeX Font Info:    Checking defaults for C65/mj/m/n on input line 48.
-LaTeX Font Info:    ... okay on input line 48.
-LaTeX Font Info:    Checking defaults for C70/song/m/n on input line 48.
-LaTeX Font Info:    ... okay on input line 48.
-LaTeX Font Info:    Checking defaults for C31/song/m/n on input line 48.
-LaTeX Font Info:    ... okay on input line 48.
-LaTeX Font Info:    Checking defaults for C32/song/m/n on input line 48.
-LaTeX Font Info:    ... okay on input line 48.
-LaTeX Font Info:    Checking defaults for C33/song/m/n on input line 48.
-LaTeX Font Info:    ... okay on input line 48.
-LaTeX Font Info:    Checking defaults for C34/song/m/n on input line 48.
-LaTeX Font Info:    ... okay on input line 48.
-LaTeX Font Info:    Checking defaults for C35/song/m/n on input line 48.
-LaTeX Font Info:    ... okay on input line 48.
-LaTeX Font Info:    Checking defaults for C36/song/m/n on input line 48.
-LaTeX Font Info:    ... okay on input line 48.
-LaTeX Font Info:    Checking defaults for C37/song/m/n on input line 48.
-LaTeX Font Info:    ... okay on input line 48.
-LaTeX Font Info:    Checking defaults for C80/song/m/n on input line 48.
-LaTeX Font Info:    ... okay on input line 48.
-LaTeX Font Info:    Checking defaults for C81/song/m/n on input line 48.
-LaTeX Font Info:    ... okay on input line 48.
-LaTeX Font Info:    Checking defaults for C01/song/m/n on input line 48.
-LaTeX Font Info:    ... okay on input line 48.
-LaTeX Font Info:    Checking defaults for C11/song/m/n on input line 48.
-LaTeX Font Info:    ... okay on input line 48.
-LaTeX Font Info:    Checking defaults for C21/song/m/n on input line 48.
-LaTeX Font Info:    ... okay on input line 48.
-LaTeX Font Info:    Checking defaults for C41/song/m/n on input line 48.
-LaTeX Font Info:    ... okay on input line 48.
-LaTeX Font Info:    Checking defaults for C62/song/m/n on input line 48.
-LaTeX Font Info:    ... okay on input line 48.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 49.
+LaTeX Font Info:    ... okay on input line 49.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 49.
+LaTeX Font Info:    ... okay on input line 49.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 49.
+LaTeX Font Info:    ... okay on input line 49.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 49.
+LaTeX Font Info:    ... okay on input line 49.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 49.
+LaTeX Font Info:    ... okay on input line 49.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 49.
+LaTeX Font Info:    ... okay on input line 49.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 49.
+LaTeX Font Info:    ... okay on input line 49.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 49.
+LaTeX Font Info:    ... okay on input line 49.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 49.
+LaTeX Font Info:    ... okay on input line 49.
+LaTeX Font Info:    Checking defaults for C00/song/m/n on input line 49.
+LaTeX Font Info:    ... okay on input line 49.
+LaTeX Font Info:    Checking defaults for C05/song/m/n on input line 49.
+LaTeX Font Info:    ... okay on input line 49.
+LaTeX Font Info:    Checking defaults for C09/song/m/n on input line 49.
+LaTeX Font Info:    ... okay on input line 49.
+LaTeX Font Info:    Checking defaults for C10/song/m/n on input line 49.
+LaTeX Font Info:    ... okay on input line 49.
+LaTeX Font Info:    Checking defaults for C20/song/m/n on input line 49.
+LaTeX Font Info:    ... okay on input line 49.
+LaTeX Font Info:    Checking defaults for C19/song/m/n on input line 49.
+LaTeX Font Info:    ... okay on input line 49.
+LaTeX Font Info:    Checking defaults for C40/song/m/n on input line 49.
+LaTeX Font Info:    ... okay on input line 49.
+LaTeX Font Info:    Checking defaults for C42/song/m/n on input line 49.
+LaTeX Font Info:    ... okay on input line 49.
+LaTeX Font Info:    Checking defaults for C43/song/m/n on input line 49.
+LaTeX Font Info:    ... okay on input line 49.
+LaTeX Font Info:    Checking defaults for C50/song/m/n on input line 49.
+LaTeX Font Info:    ... okay on input line 49.
+LaTeX Font Info:    Checking defaults for C52/song/m/n on input line 49.
+LaTeX Font Info:    ... okay on input line 49.
+LaTeX Font Info:    Checking defaults for C49/song/m/n on input line 49.
+LaTeX Font Info:    ... okay on input line 49.
+LaTeX Font Info:    Checking defaults for C60/mj/m/n on input line 49.
+LaTeX Font Info:    ... okay on input line 49.
+LaTeX Font Info:    Checking defaults for C61/mj/m/n on input line 49.
+LaTeX Font Info:    ... okay on input line 49.
+LaTeX Font Info:    Checking defaults for C63/mj/m/n on input line 49.
+LaTeX Font Info:    ... okay on input line 49.
+LaTeX Font Info:    Checking defaults for C64/mj/m/n on input line 49.
+LaTeX Font Info:    ... okay on input line 49.
+LaTeX Font Info:    Checking defaults for C65/mj/m/n on input line 49.
+LaTeX Font Info:    ... okay on input line 49.
+LaTeX Font Info:    Checking defaults for C70/song/m/n on input line 49.
+LaTeX Font Info:    ... okay on input line 49.
+LaTeX Font Info:    Checking defaults for C31/song/m/n on input line 49.
+LaTeX Font Info:    ... okay on input line 49.
+LaTeX Font Info:    Checking defaults for C32/song/m/n on input line 49.
+LaTeX Font Info:    ... okay on input line 49.
+LaTeX Font Info:    Checking defaults for C33/song/m/n on input line 49.
+LaTeX Font Info:    ... okay on input line 49.
+LaTeX Font Info:    Checking defaults for C34/song/m/n on input line 49.
+LaTeX Font Info:    ... okay on input line 49.
+LaTeX Font Info:    Checking defaults for C35/song/m/n on input line 49.
+LaTeX Font Info:    ... okay on input line 49.
+LaTeX Font Info:    Checking defaults for C36/song/m/n on input line 49.
+LaTeX Font Info:    ... okay on input line 49.
+LaTeX Font Info:    Checking defaults for C37/song/m/n on input line 49.
+LaTeX Font Info:    ... okay on input line 49.
+LaTeX Font Info:    Checking defaults for C80/song/m/n on input line 49.
+LaTeX Font Info:    ... okay on input line 49.
+LaTeX Font Info:    Checking defaults for C81/song/m/n on input line 49.
+LaTeX Font Info:    ... okay on input line 49.
+LaTeX Font Info:    Checking defaults for C01/song/m/n on input line 49.
+LaTeX Font Info:    ... okay on input line 49.
+LaTeX Font Info:    Checking defaults for C11/song/m/n on input line 49.
+LaTeX Font Info:    ... okay on input line 49.
+LaTeX Font Info:    Checking defaults for C21/song/m/n on input line 49.
+LaTeX Font Info:    ... okay on input line 49.
+LaTeX Font Info:    Checking defaults for C41/song/m/n on input line 49.
+LaTeX Font Info:    ... okay on input line 49.
+LaTeX Font Info:    Checking defaults for C62/song/m/n on input line 49.
+LaTeX Font Info:    ... okay on input line 49.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -545,16 +553,16 @@ LaTeX Font Info:    ... okay on input line 48.
 
 (/usr/local/texlive/2023basic/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count293
+\scratchcounter=\count294
 \scratchdimen=\dimen186
 \scratchbox=\box61
-\nofMPsegments=\count294
-\nofMParguments=\count295
+\nofMPsegments=\count295
+\nofMParguments=\count296
 \everyMPshowfont=\toks31
-\MPscratchCnt=\count296
+\MPscratchCnt=\count297
 \MPscratchDim=\dimen187
-\MPnumerator=\count297
-\makeMPintoPDFobject=\count298
+\MPnumerator=\count298
+\makeMPintoPDFobject=\count299
 \everyMPtoPDFconversion=\toks32
 ) (/usr/local/texlive/2023basic/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
@@ -562,31 +570,36 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 48
  (/usr/local/texlive/2023basic/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 ))
-Package hyperref Info: Link coloring OFF on input line 48.
+Package hyperref Info: Link coloring OFF on input line 49.
  (./article.out) (./article.out)
 \@outlinefile=\write3
 \openout3 = `article.out'.
 
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: End \AtBeginDocument code.
- (/usr/local/texlive/2023basic/texmf-dist/tex/latex/cjk/texinput/UTF8/UTF8.bdg
+\c@maskedRefs=\count300
+ (/usr/local/texlive/2023basic/texmf-dist/tex/latex/apacite/english.apc
+File: english.apc 2013/07/21 v6.03 apacite language file
+LaTeX Info: Redefining \BPBI on input line 129.
+LaTeX Info: Redefining \BHBI on input line 130.
+) (/usr/local/texlive/2023basic/texmf-dist/tex/latex/cjk/texinput/UTF8/UTF8.bdg
 File: UTF8.bdg 2021/10/16 4.8.5
 ) (/usr/local/texlive/2023basic/texmf-dist/tex/latex/cjk/texinput/UTF8/UTF8.enc
 File: UTF8.enc 2021/10/16 4.8.5
 ) (/usr/local/texlive/2023basic/texmf-dist/tex/latex/cjk/texinput/UTF8/UTF8.chr
 File: UTF8.chr 2021/10/16 4.8.5
 )
-LaTeX Font Info:    Trying to load font information for C70+bkai on input line 62.
+LaTeX Font Info:    Trying to load font information for C70+bkai on input line 63.
  (/usr/local/texlive/2023basic/texmf-dist/tex/latex/cjk/texinput/UTF8/c70bkai.fd
 File: c70bkai.fd 2021/10/16 4.8.5
 ) (/usr/local/texlive/2023basic/texmf-dist/tex/latex/cjk/texinput/UTF8/c70bkai.fdx
 File: c70bkai.fdx 2021/10/16 4.8.5
 )
-LaTeX Font Info:    Trying to load font information for U+msa on input line 62.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 63.
  (/usr/local/texlive/2023basic/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 62.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 63.
  (/usr/local/texlive/2023basic/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 ) [1
@@ -596,172 +609,185 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 \openout4 = `article.toc'.
 
  [2]
-<./images/course_cad_draft1.png, id=210, 907.39pt x 426.59375pt>
+<./images/course_cad_draft1.png, id=244, 907.39pt x 426.59375pt>
 File: ./images/course_cad_draft1.png Graphic file (type png)
 <use ./images/course_cad_draft1.png>
-Package pdftex.def Info: ./images/course_cad_draft1.png  used on input line 86.
+Package pdftex.def Info: ./images/course_cad_draft1.png  used on input line 90.
 (pdftex.def)             Requested size: 317.07614pt x 149.0692pt.
-<./images/course_cad_draft2.png, id=212, 900.36375pt x 436.63126pt>
+<./images/course_cad_draft2.png, id=246, 900.36375pt x 436.63126pt>
 File: ./images/course_cad_draft2.png Graphic file (type png)
 <use ./images/course_cad_draft2.png>
-Package pdftex.def Info: ./images/course_cad_draft2.png  used on input line 87.
+Package pdftex.def Info: ./images/course_cad_draft2.png  used on input line 91.
 (pdftex.def)             Requested size: 317.07614pt x 153.76263pt.
-<./images/fidget_spinnner.png, id=214, 532.99126pt x 396.48125pt>
+<./images/fidget_spinnner.png, id=248, 532.99126pt x 396.48125pt>
 File: ./images/fidget_spinnner.png Graphic file (type png)
 <use ./images/fidget_spinnner.png>
-Package pdftex.def Info: ./images/fidget_spinnner.png  used on input line 93.
+Package pdftex.def Info: ./images/fidget_spinnner.png  used on input line 97.
 (pdftex.def)             Requested size: 181.18439pt x 134.77763pt.
 
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.98     \newpage
-                  [1 <./images/course_cad_draft1.png> <./images/course_cad_draft2.png> <./images/fidget_spinnner.png>]
-<./images/darlington_1.png, id=252, 435.6275pt x 251.94125pt>
+l.102     \newpage
+                   [1 <./images/course_cad_draft1.png> <./images/course_cad_draft2.png> <./images/fidget_spinnner.png>]
+Overfull \hbox (0.62431pt too wide) in paragraph at lines 118--119
+[]\OT1/cmr/m/n/12 FET\C70/bkai/m/n/12/ff ^^H \C70/bkai/m/n/12/58 4 \C70/bkai/m/n/12/65 H \C70/bkai/m/n/12/61 … \C70/bkai/m/n/12/96 ˚ \C70/bkai/m/n/12/66 v \C70/bkai/m/n/12/9a ‘ \C70/bkai/m/n/12/ff 	 ^^Z \C70/bkai/m/n/12/4e ; \C70/bkai/m/n/12/89 Å \C70/bkai/bx/n/12/90 ^^Z N \C70/bkai/m/n/12/96 ˚ \C70/bkai/m/n/12/58 ” \C70/bkai/m/n/12/4f Ü \C70/bkai/m/n/12/63 ß \C70/bkai/m/n/12/52 6 \C70/bkai/m/n/12/96 ˚ \C70/bkai/m/n/12/6d A \C70/bkai/m/n/12/ff ^^L \C70/bkai/m/n/12/51 v \C70/bkai/m/n/12/7d P \C70/bkai/m/n/12/69 À \C70/bkai/bx/n/12/53 ^^E \C70/bkai/m/n/12/62 Ï \C70/bkai/m/n/12/6e ê \C70/bkai/m/n/12/69 u \C70/bkai/m/n/12/ff ^^H\OT1/cmr/m/n/12 Source\C70/bkai/m/n/12/ff 	 \C70/bkai/m/n/12/30 ^^A
+ []
+
+[2]
+<./images/darlington_circuit.png, id=278, 687.56876pt x 341.275pt>
+File: ./images/darlington_circuit.png Graphic file (type png)
+<use ./images/darlington_circuit.png>
+Package pdftex.def Info: ./images/darlington_circuit.png  used on input line 129.
+(pdftex.def)             Requested size: 317.07614pt x 157.37895pt.
+<./images/darlington_1.png, id=280, 435.6275pt x 251.94125pt>
 File: ./images/darlington_1.png Graphic file (type png)
 <use ./images/darlington_1.png>
-Package pdftex.def Info: ./images/darlington_1.png  used on input line 123.
+Package pdftex.def Info: ./images/darlington_1.png  used on input line 136.
 (pdftex.def)             Requested size: 203.83417pt x 117.88573pt.
-<./images/darlington_2.png, id=253, 433.62pt x 249.93375pt>
+<./images/darlington_2.png, id=281, 433.62pt x 249.93375pt>
 File: ./images/darlington_2.png Graphic file (type png)
 <use ./images/darlington_2.png>
-Package pdftex.def Info: ./images/darlington_2.png  used on input line 124.
+Package pdftex.def Info: ./images/darlington_2.png  used on input line 137.
 (pdftex.def)             Requested size: 203.83417pt x 117.48795pt.
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-[2] [3 <./images/darlington_1.png> <./images/darlington_2.png>] [4] [5] [6] [7]
-<./images/cookie_draft.png, id=361, 296.10625pt x 280.04625pt>
+ [3 <./images/darlington_circuit.png> <./images/darlington_1.png> <./images/darlington_2.png>] [4] [5] [6] [7]
+<./images/cookie_draft.png, id=374, 296.10625pt x 280.04625pt>
 File: ./images/cookie_draft.png Graphic file (type png)
 <use ./images/cookie_draft.png>
-Package pdftex.def Info: ./images/cookie_draft.png  used on input line 309.
+Package pdftex.def Info: ./images/cookie_draft.png  used on input line 314.
 (pdftex.def)             Requested size: 148.1386pt x 140.09923pt.
-<./images/filling_draft.png, id=362, 293.095pt x 263.98625pt>
+<./images/filling_draft.png, id=375, 293.095pt x 263.98625pt>
 File: ./images/filling_draft.png Graphic file (type png)
 <use ./images/filling_draft.png>
-Package pdftex.def Info: ./images/filling_draft.png  used on input line 310.
+Package pdftex.def Info: ./images/filling_draft.png  used on input line 315.
 (pdftex.def)             Requested size: 155.54532pt x 140.09923pt.
-<./images/cookie_3d.png, id=363, 287.0725pt x 237.88875pt>
+<./images/cookie_3d.png, id=376, 287.0725pt x 237.88875pt>
 File: ./images/cookie_3d.png Graphic file (type png)
 <use ./images/cookie_3d.png>
-Package pdftex.def Info: ./images/cookie_3d.png  used on input line 315.
+Package pdftex.def Info: ./images/cookie_3d.png  used on input line 320.
 (pdftex.def)             Requested size: 169.07344pt x 140.09923pt.
-<./images/filling_3d.png, id=364, 294.09875pt x 241.90375pt>
+<./images/filling_3d.png, id=377, 294.09875pt x 241.90375pt>
 File: ./images/filling_3d.png Graphic file (type png)
 <use ./images/filling_3d.png>
-Package pdftex.def Info: ./images/filling_3d.png  used on input line 316.
+Package pdftex.def Info: ./images/filling_3d.png  used on input line 321.
 (pdftex.def)             Requested size: 170.33505pt x 140.09923pt.
-<./images/stator_draft_1.png, id=365, 321.2pt x 299.1175pt>
+<./images/stator_draft_1.png, id=378, 321.2pt x 299.1175pt>
 File: ./images/stator_draft_1.png Graphic file (type png)
 <use ./images/stator_draft_1.png>
-Package pdftex.def Info: ./images/stator_draft_1.png  used on input line 321.
+Package pdftex.def Info: ./images/stator_draft_1.png  used on input line 326.
 (pdftex.def)             Requested size: 150.4445pt x 140.09923pt.
-<./images/stator_draft_2.png, id=366, 327.2225pt x 370.38374pt>
+<./images/stator_draft_2.png, id=379, 327.2225pt x 370.38374pt>
 File: ./images/stator_draft_2.png Graphic file (type png)
 <use ./images/stator_draft_2.png>
-Package pdftex.def Info: ./images/stator_draft_2.png  used on input line 322.
+Package pdftex.def Info: ./images/stator_draft_2.png  used on input line 327.
 (pdftex.def)             Requested size: 123.77164pt x 140.09923pt.
-<./images/hall_frame_draft.png, id=367, 327.2225pt x 280.04625pt>
+<./images/hall_frame_draft.png, id=380, 327.2225pt x 280.04625pt>
 File: ./images/hall_frame_draft.png Graphic file (type png)
 <use ./images/hall_frame_draft.png>
-Package pdftex.def Info: ./images/hall_frame_draft.png  used on input line 323.
+Package pdftex.def Info: ./images/hall_frame_draft.png  used on input line 328.
 (pdftex.def)             Requested size: 163.7057pt x 140.09923pt.
  [8 <./images/cookie_draft.png> <./images/filling_draft.png> <./images/cookie_3d.png> <./images/filling_3d.png> <./images/stator_draft_1.png> <./images/stator_draft_2.png> <./images/hall_frame_draft.png>]
-<./images/rotor_3d.png, id=383, 329.23pt x 311.1625pt>
+<./images/rotor_3d.png, id=396, 329.23pt x 311.1625pt>
 File: ./images/rotor_3d.png Graphic file (type png)
 <use ./images/rotor_3d.png>
-Package pdftex.def Info: ./images/rotor_3d.png  used on input line 330.
+Package pdftex.def Info: ./images/rotor_3d.png  used on input line 335.
 (pdftex.def)             Requested size: 133.40775pt x 126.08609pt.
-<./images/stator_3d.png, id=384, 321.2pt x 296.10625pt>
+<./images/stator_3d.png, id=397, 321.2pt x 296.10625pt>
 File: ./images/stator_3d.png Graphic file (type png)
 <use ./images/stator_3d.png>
-Package pdftex.def Info: ./images/stator_3d.png  used on input line 331.
+Package pdftex.def Info: ./images/stator_3d.png  used on input line 336.
 (pdftex.def)             Requested size: 136.7704pt x 126.08609pt.
-<./images/hall_frame_3d.png, id=385, 266.9975pt x 252.945pt>
+<./images/hall_frame_3d.png, id=398, 266.9975pt x 252.945pt>
 File: ./images/hall_frame_3d.png Graphic file (type png)
 <use ./images/hall_frame_3d.png>
-Package pdftex.def Info: ./images/hall_frame_3d.png  used on input line 332.
+Package pdftex.def Info: ./images/hall_frame_3d.png  used on input line 337.
 (pdftex.def)             Requested size: 133.091pt x 126.08609pt.
-<./images/all_3d.png, id=386, 414.54875pt x 283.0575pt>
+<./images/all_3d.png, id=399, 414.54875pt x 283.0575pt>
 File: ./images/all_3d.png Graphic file (type png)
 <use ./images/all_3d.png>
-Package pdftex.def Info: ./images/all_3d.png  used on input line 337.
+Package pdftex.def Info: ./images/all_3d.png  used on input line 342.
 (pdftex.def)             Requested size: 226.48395pt x 154.64551pt.
-<./images/circuit_draft.png, id=387, 665.48625pt x 380.42125pt>
+<./images/circuit_draft.png, id=400, 665.48625pt x 380.42125pt>
 File: ./images/circuit_draft.png Graphic file (type png)
 <use ./images/circuit_draft.png>
-Package pdftex.def Info: ./images/circuit_draft.png  used on input line 347.
+Package pdftex.def Info: ./images/circuit_draft.png  used on input line 352.
 (pdftex.def)             Requested size: 317.07614pt x 181.2534pt.
  [9 <./images/rotor_3d.png> <./images/stator_3d.png> <./images/hall_frame_3d.png> <./images/all_3d.png> <./images/circuit_draft.png>]
-<./images/circuit_digital.png, id=402, 624.3325pt x 596.2275pt>
+<./images/circuit_digital.png, id=415, 624.3325pt x 596.2275pt>
 File: ./images/circuit_digital.png Graphic file (type png)
 <use ./images/circuit_digital.png>
-Package pdftex.def Info: ./images/circuit_digital.png  used on input line 354.
+Package pdftex.def Info: ./images/circuit_digital.png  used on input line 359.
 (pdftex.def)             Requested size: 183.37627pt x 175.12671pt.
-<./images/circuit_real.png, id=403, 485.815pt x 376.40625pt>
+<./images/circuit_real.png, id=416, 485.815pt x 376.40625pt>
 File: ./images/circuit_real.png Graphic file (type png)
 <use ./images/circuit_real.png>
-Package pdftex.def Info: ./images/circuit_real.png  used on input line 355.
+Package pdftex.def Info: ./images/circuit_real.png  used on input line 360.
 (pdftex.def)             Requested size: 226.03506pt x 175.12671pt.
  [10 <./images/circuit_digital.png> <./images/circuit_real.png>]
-<./images/finish1.png, id=417, 496.85625pt x 441.65pt>
+<./images/finish1.png, id=430, 496.85625pt x 441.65pt>
 File: ./images/finish1.png Graphic file (type png)
 <use ./images/finish1.png>
-Package pdftex.def Info: ./images/finish1.png  used on input line 383.
+Package pdftex.def Info: ./images/finish1.png  used on input line 388.
 (pdftex.def)             Requested size: 157.60985pt x 140.09923pt.
-<./images/finish2.png, id=418, 503.8825pt x 414.54875pt>
+<./images/finish2.png, id=431, 503.8825pt x 414.54875pt>
 File: ./images/finish2.png Graphic file (type png)
 <use ./images/finish2.png>
-Package pdftex.def Info: ./images/finish2.png  used on input line 384.
+Package pdftex.def Info: ./images/finish2.png  used on input line 389.
 (pdftex.def)             Requested size: 170.2875pt x 140.09923pt.
-<./images/finish3.png, id=419, 453.695pt x 443.6575pt>
+<./images/finish3.png, id=432, 453.695pt x 443.6575pt>
 File: ./images/finish3.png Graphic file (type png)
 <use ./images/finish3.png>
-Package pdftex.def Info: ./images/finish3.png  used on input line 385.
+Package pdftex.def Info: ./images/finish3.png  used on input line 390.
 (pdftex.def)             Requested size: 143.26775pt x 140.09923pt.
-<./images/demo.png, id=420, 893.3375pt x 603.25375pt>
+<./images/demo.png, id=433, 893.3375pt x 603.25375pt>
 File: ./images/demo.png Graphic file (type png)
 <use ./images/demo.png>
-Package pdftex.def Info: ./images/demo.png  used on input line 386.
+Package pdftex.def Info: ./images/demo.png  used on input line 391.
 (pdftex.def)             Requested size: 207.46709pt x 140.09923pt.
  [11 <./images/finish1.png> <./images/finish2.png> <./images/finish3.png> <./images/demo.png>] [12] (./article.bbl
-Underfull \hbox (badness 10000) in paragraph at lines 14--17
-\OT1/cmtt/m/n/12 tw / emotor / worklog / EMTRC / motor _ learn / elearning / motor / 1 / lecture _ 1 . 4 . pdf$[]\OT1/cmr/m/n/12 ,
+Underfull \hbox (badness 1199) in paragraph at lines 14--24
+[]\OT1/cmr/m/n/12 Bodnar, D.  (2018).  \OT1/cmr/m/it/12 Fid-get spin-ner mo-tors.  []$\OT1/cmtt/m/n/12 http :// trainelectronics [] .com /
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 24--27
-[]\OT1/cmr/m/n/12 Components101.  Fun-da-men-tals of mos-fets and
+Underfull \hbox (badness 10000) in paragraph at lines 36--46
+\OT1/cmtt/m/n/12 components101 [] .com / articles / mosfet [] -symbol [] -working [] -operation [] -types [] -and []
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 24--27
-\OT1/cmr/m/n/12 their work-ing.  []$\OT1/cmtt/m/n/12 https : / / components101 . com / articles /
+LaTeX Font Warning: Font shape `C70/bkai/m/it' undefined
+(Font)              using `C70/bkai/m/n' instead on input line 86.
+
+
+Underfull \hbox (badness 6608) in paragraph at lines 146--156
+[]\C70/bkai/m/it/12/57  \C70/bkai/bx/n/12/7a À \C70/bkai/m/n/12/62 ^^P \C70/bkai/m/it/12/52 ü \C70/bkai/bx/n/12/59 ' \C70/bkai/m/it/12/5b x \C70/bkai/m/it/12/99 ¨ \C70/bkai/m/it/12/90 T \C70/bkai/m/n/12/79 — \C70/bkai/m/n/12/62 Ä \C70/bkai/m/n/12/78 ^^T \C70/bkai/bx/n/12/7a v \C70/bkai/m/it/12/4e - \C70/bkai/m/n/12/5f √\OT1/cmr/m/n/12 .  (n.d.[]).  \C70/bkai/m/it/12/76 Ù \C70/bkai/m/it/12/6d A \C70/bkai/m/it/12/71 ! \C70/bkai/m/it/12/52 7 \C70/bkai/m/it/12/99 ¨
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 29--32
-[]\OT1/cmr/m/n/12 D. Bod-nar.  Fid-get spin-ner mo-tors.  []$\OT1/cmtt/m/n/12 http : / / trainelectronics . com /
+Underfull \hbox (badness 1867) in paragraph at lines 146--156
+\C70/bkai/m/it/12/90 T\OT1/cmr/m/it/12 .  []$\OT1/cmtt/m/n/12 http :// km [] .emotors [] .ncku [] .edu [] .tw / emotor / worklog / EMTRC / motor [] []learn /
  []
 
 ) [13] (./article.aux)
+
+LaTeX Font Warning: Some font shapes were not available, defaults substituted.
+
 Package rerunfilecheck Info: File `article.out' has not changed.
-(rerunfilecheck)             Checksum: B01D62E8A782315A798907BE94238391;1745.
+(rerunfilecheck)             Checksum: A06BFF28172F1917BE098FF5559F43D8;1677.
  ) 
 Here is how much of TeX's memory you used:
- 16124 strings out of 477476
- 254011 string characters out of 5824245
+ 16907 strings out of 477476
+ 265984 string characters out of 5824245
  1892388 words of memory out of 5000000
- 35768 multiletter control sequences out of 15000+600000
- 561628 words of font info for 207 fonts, out of 8000000 for 9000
+ 36449 multiletter control sequences out of 15000+600000
+ 580775 words of font info for 275 fonts, out of 8000000 for 9000
  319 hyphenation exceptions out of 8191
- 75i,11n,76p,763b,1753s stack positions out of 10000i,1000n,20000p,200000b,200000s
-</usr/local/texlive/2023basic/texmf-dist/fonts/type1/arphic/bkaiu/bkaiu03.pfb></usr/local/texlive/2023basic/texmf-dist/fonts/type1/arphic/bkaiu/bkaiu30.pfb></usr/local/texlive/2023basic/texmf-dist/fonts/type1/arphic/bkaiu/bkaiu4e.pfb></usr/local/texlive/2023basic/texmf-dist/fonts/type1/arphic/bkaiu/bkaiu4f.pfb></usr/local/texlive/2023basic/texmf-dist/fonts/type1/arphic/bkaiu/bkaiu50.pfb></usr/local/texlive/2023basic/texmf-dist/fonts/type1/arphic/bkaiu/bkaiu51.pfb></usr/local/texlive/2023basic/texmf-dist/fonts/type1/arphic/bkaiu/bkaiu52.pfb></usr/local/texlive/2023basic/texmf-dist/fonts/type1/arphic/bkaiu/bkaiu53.pfb></usr/local/texlive/2023basic/texmf-dist/fonts/type1/arphic/bkaiu/bkaiu54.pfb></usr/local/texlive/2023basic/texmf-dist/fonts/type1/arphic/bkaiu/bkaiu55.pfb></usr/local/texlive/2023basic/texmf-dist/fonts/type1/arphic/bkaiu/bkaiu56.pfb></usr/local/texlive/2023basic/texmf-dist/fonts/type1/arphic/bkaiu/bkaiu57.pfb></usr/local/texlive/2023basic/texmf-dist/fonts/type1/arphic/bkaiu/bkaiu58.pfb></usr/local/texlive/2023basic/texmf-dist/fonts/type1/arphic/bkaiu/bkaiu59.pfb></usr/local/texlive/2023basic/texmf-dist/fonts/type1/arphic/bkaiu/bkaiu5b.pfb></usr/local/texlive/2023basic/texmf-dist/fonts/type1/arphic/bkaiu/bkaiu5c.pfb></usr/local/texlive/2023basic/texmf-dist/fonts/type1/arphic/bkaiu/bkaiu5d.pfb></usr/local/texlive/2023basic/texmf-dist/fonts/type1/arphic/bkaiu/bkaiu5e.pfb></usr/local/texlive/2023basic/texmf-dist/fonts/type1/arphic/bkaiu/bkaiu5f.pfb></usr/local/texlive/2023basic/texmf-dist/fonts/type1/arphic/bkaiu/bkaiu60.pfb></usr/local/texlive/2023basic/texmf-dist/fonts/type1/arphic/bkaiu/bkaiu61.pfb></usr/local/texlive/2023basic/texmf-dist/fonts/type1/arphic/bkaiu/bkaiu62.pfb></usr/local/texlive/2023basic/texmf-dist/fonts/type1/arphic/bkaiu/bkaiu63.pfb></usr/local/texlive/2023basic/texmf-dist/fonts/type1/arphic/bkaiu/bkaiu64.pfb></usr/local/texlive/2023basic/texmf-dist/fonts/type1/arphic/bkaiu/bkaiu65.pfb></usr/local/texlive/2023basic/texmf-dist/fonts/type1/arphic/bkaiu/bkaiu66.pfb></usr/local/texlive/2023basic/texmf-dist/fonts/type1/arphic/bkaiu/bkaiu67.pfb></usr/local/texlive/2023basic/texmf-dist/fonts/type1/arphic/bkaiu/bkaiu68.pfb></usr/local/texlive/2023basic/texmf-dist/fonts/type1/arphic/bkaiu/bkaiu69.pfb></usr/local/texlive/2023basic/texmf-dist/fonts/type1/arphic/bkaiu/bkaiu6a.pfb></usr/local/texlive/2023basic/texmf-dist/fonts/type1/arphic/bkaiu/bkaiu6b.pfb></usr/local/texlive/2023basic/texmf-dist/fonts/type1/arphic/bkaiu/bkaiu6c.pfb></usr/local/texlive/2023basic/texmf-dist/fonts/type1/arphic/bkaiu/bkaiu6d.pfb></usr/local/texlive/2023basic/texmf-dist/fonts/type1/arphic/bkaiu/bkaiu6e.pfb></usr/local/texlive/2023basic/texmf-dist/fonts/type1/arphic/bkaiu/bkaiu6f.pfb></usr/local/texlive/2023basic/texmf-dist/fonts/type1/arphic/bkaiu/bkaiu70.pfb></usr/local/texlive/2023basic/texmf-dist/fonts/type1/arphic/bkaiu/bkaiu71.pfb></usr/local/texlive/2023basic/texmf-dist/fonts/type1/arphic/bkaiu/bkaiu72.pfb></usr/local/texlive/2023basic/texmf-dist/fonts/type1/arphic/bkaiu/bkaiu73.pfb></usr/local/texlive/2023basic/texmf-dist/fonts/type1/arphic/bkaiu/bkaiu74.pfb></usr/local/texlive/2023basic/texmf-dist/fonts/type1/arphic/bkaiu/bkaiu75.pfb></usr/local/texlive/2023basic/texmf-dist/fonts/type1/arphic/bkaiu/bkaiu76.pfb></usr/local/texlive/2023basic/texmf-dist/fonts/type1/arphic/bkaiu/bkaiu77.pfb></usr/local/texlive/2023basic/texmf-dist/fonts/type1/arphic/bkaiu/bkaiu78.pfb></usr/local/texlive/2023basic/texmf-dist/fonts/type1/arphic/bkaiu/bkaiu79.pfb></usr/local/texlive/2023basic/texmf-dist/fonts/type1/arphic/bkaiu/bkaiu7a.pfb></usr/local/texlive/2023basic/texmf-dist/fonts/type1/arphic/bkaiu/bkaiu7b.pfb></usr/local/texlive/2023basic/texmf-dist/fonts/type1/arphic/bkaiu/bkaiu7c.pfb></usr/local/texlive/2023basic/texmf-dist/fonts/type1/arphic/bkaiu/bkaiu7d.pfb></usr/local/texlive/2023basic/texmf-dist/fonts/type1/arphic/bkaiu/bkaiu7e.pfb></usr/local/texlive/2023basic/texmf-dist/fonts/type1/arphic/bkaiu/bkaiu7f.pfb></usr/local/texlive/2023basic/texmf-dist/fonts/type1/arphic/bkaiu/bkaiu80.pfb></usr/local/texlive/2023basic/texmf-dist/fonts/type1/arphic/bkaiu/bkaiu81.pfb></usr/local/texlive/2023basic/texmf-dist/fonts/type1/arphic/bkaiu/bkaiu82.pfb></usr/local/texlive/2023basic/texmf-dist/fonts/type1/arphic/bkaiu/bkaiu83.pfb></usr/local/texlive/2023basic/texmf-dist/fonts/type1/arphic/bkaiu/bkaiu84.pfb></usr/local/texlive/2023basic/texmf-dist/fonts/type1/arphic/bkaiu/bkaiu85.pfb></usr/local/texlive/2023basic/texmf-dist/fonts/type1/arphic/bkaiu/bkaiu86.pfb></usr/local/texlive/2023basic/texmf-dist/fonts/type1/arphic/bkaiu/bkaiu87.pfb></usr/local/texlive/2023basic/texmf-dist/fonts/type1/arphic/bkaiu/bkaiu88.pfb></usr/local/texlive/2023basic/texmf-dist/fonts/type1/arphic/bkaiu/bkaiu89.pfb></usr/local/texlive/2023basic/texmf-dist/fonts/type1/arphic/bkaiu/bkaiu8a.pfb></usr/local/texlive/2023basic/texmf-dist/fonts/type1/arphic/bkaiu/bkaiu8b.pfb></usr/local/texlive/2023basic/texmf-dist/fonts/type1/arphic/bkaiu/bkaiu8c.pfb></usr/local/texlive/2023basic/texmf-dist/fonts/type1/arphic/bkaiu/bkaiu8d.pfb></usr/local/texlive/2023basic/texmf-dist/fonts/type1/arphic/bkaiu/bkaiu8e.pfb></usr/local/texlive/2023basic/texmf-dist/fonts/type1/arphic/bkaiu/bkaiu8f.pfb></usr/local/texlive/2023basic/texmf-dist/fonts/type1/arphic/bkaiu/bkaiu90.pfb></usr/local/texlive/2023basic/texmf-dist/fonts/type1/arphic/bkaiu/bkaiu91.pfb></usr/local/texlive/2023basic/texmf-dist/fonts/type1/arphic/bkaiu/bkaiu92.pfb></usr/local/texlive/2023basic/texmf-dist/fonts/type1/arphic/bkaiu/bkaiu93.pfb></usr/local/texlive/2023basic/texmf-dist/fonts/type1/arphic/bkaiu/bkaiu94.pfb></usr/local/texlive/2023basic/texmf-dist/fonts/type1/arphic/bkaiu/bkaiu95.pfb></usr/local/texlive/2023basic/texmf-dist/fonts/type1/arphic/bkaiu/bkaiu96.pfb></usr/local/texlive/2023basic/texmf-dist/fonts/type1/arphic/bkaiu/bkaiu97.pfb></usr/local/texlive/2023basic/texmf-dist/fonts/type1/arphic/bkaiu/bkaiu98.pfb></usr/local/texlive/2023basic/texmf-dist/fonts/type1/arphic/bkaiu/bkaiu99.pfb></usr/local/texlive/2023basic/texmf-dist/fonts/type1/arphic/bkaiu/bkaiu9a.pfb></usr/local/texlive/2023basic/texmf-dist/fonts/type1/arphic/bkaiu/bkaiu9e.pfb></usr/local/texlive/2023basic/texmf-dist/fonts/type1/arphic/bkaiu/bkaiuff.pfb></usr/local/texlive/2023basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2023basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2023basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2023basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2023basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
-Output written on article.pdf (16 pages, 19723229 bytes).
+ 75i,11n,76p,1095b,1770s stack positions out of 10000i,1000n,20000p,200000b,200000s
+</usr/local/texlive/2023basic/texmf-dist/fonts/type1/arphic/bkaiu/bkaiu03.pfb></usr/local/texlive/2023basic/texmf-dist/fonts/type1/arphic/bkaiu/bkaiu30.pfb></usr/local/texlive/2023basic/texmf-dist/fonts/type1/arphic/bkaiu/bkaiu4e.pfb></usr/local/texlive/2023basic/texmf-dist/fonts/type1/arphic/bkaiu/bkaiu4f.pfb></usr/local/texlive/2023basic/texmf-dist/fonts/type1/arphic/bkaiu/bkaiu50.pfb></usr/local/texlive/2023basic/texmf-dist/fonts/type1/arphic/bkaiu/bkaiu51.pfb></usr/local/texlive/2023basic/texmf-dist/fonts/type1/arphic/bkaiu/bkaiu52.pfb></usr/local/texlive/2023basic/texmf-dist/fonts/type1/arphic/bkaiu/bkaiu53.pfb></usr/local/texlive/2023basic/texmf-dist/fonts/type1/arphic/bkaiu/bkaiu54.pfb></usr/local/texlive/2023basic/texmf-dist/fonts/type1/arphic/bkaiu/bkaiu55.pfb></usr/local/texlive/2023basic/texmf-dist/fonts/type1/arphic/bkaiu/bkaiu56.pfb></usr/local/texlive/2023basic/texmf-dist/fonts/type1/arphic/bkaiu/bkaiu57.pfb></usr/local/texlive/2023basic/texmf-dist/fonts/type1/arphic/bkaiu/bkaiu58.pfb></usr/local/texlive/2023basic/texmf-dist/fonts/type1/arphic/bkaiu/bkaiu59.pfb></usr/local/texlive/2023basic/texmf-dist/fonts/type1/arphic/bkaiu/bkaiu5b.pfb></usr/local/texlive/2023basic/texmf-dist/fonts/type1/arphic/bkaiu/bkaiu5c.pfb></usr/local/texlive/2023basic/texmf-dist/fonts/type1/arphic/bkaiu/bkaiu5d.pfb></usr/local/texlive/2023basic/texmf-dist/fonts/type1/arphic/bkaiu/bkaiu5e.pfb></usr/local/texlive/2023basic/texmf-dist/fonts/type1/arphic/bkaiu/bkaiu5f.pfb></usr/local/texlive/2023basic/texmf-dist/fonts/type1/arphic/bkaiu/bkaiu60.pfb></usr/local/texlive/2023basic/texmf-dist/fonts/type1/arphic/bkaiu/bkaiu61.pfb></usr/local/texlive/2023basic/texmf-dist/fonts/type1/arphic/bkaiu/bkaiu62.pfb></usr/local/texlive/2023basic/texmf-dist/fonts/type1/arphic/bkaiu/bkaiu63.pfb></usr/local/texlive/2023basic/texmf-dist/fonts/type1/arphic/bkaiu/bkaiu64.pfb></usr/local/texlive/2023basic/texmf-dist/fonts/type1/arphic/bkaiu/bkaiu65.pfb></usr/local/texlive/2023basic/texmf-dist/fonts/type1/arphic/bkaiu/bkaiu66.pfb></usr/local/texlive/2023basic/texmf-dist/fonts/type1/arphic/bkaiu/bkaiu67.pfb></usr/local/texlive/2023basic/texmf-dist/fonts/type1/arphic/bkaiu/bkaiu68.pfb></usr/local/texlive/2023basic/texmf-dist/fonts/type1/arphic/bkaiu/bkaiu69.pfb></usr/local/texlive/2023basic/texmf-dist/fonts/type1/arphic/bkaiu/bkaiu6a.pfb></usr/local/texlive/2023basic/texmf-dist/fonts/type1/arphic/bkaiu/bkaiu6b.pfb></usr/local/texlive/2023basic/texmf-dist/fonts/type1/arphic/bkaiu/bkaiu6c.pfb></usr/local/texlive/2023basic/texmf-dist/fonts/type1/arphic/bkaiu/bkaiu6d.pfb></usr/local/texlive/2023basic/texmf-dist/fonts/type1/arphic/bkaiu/bkaiu6e.pfb></usr/local/texlive/2023basic/texmf-dist/fonts/type1/arphic/bkaiu/bkaiu6f.pfb></usr/local/texlive/2023basic/texmf-dist/fonts/type1/arphic/bkaiu/bkaiu70.pfb></usr/local/texlive/2023basic/texmf-dist/fonts/type1/arphic/bkaiu/bkaiu71.pfb></usr/local/texlive/2023basic/texmf-dist/fonts/type1/arphic/bkaiu/bkaiu72.pfb></usr/local/texlive/2023basic/texmf-dist/fonts/type1/arphic/bkaiu/bkaiu73.pfb></usr/local/texlive/2023basic/texmf-dist/fonts/type1/arphic/bkaiu/bkaiu74.pfb></usr/local/texlive/2023basic/texmf-dist/fonts/type1/arphic/bkaiu/bkaiu75.pfb></usr/local/texlive/2023basic/texmf-dist/fonts/type1/arphic/bkaiu/bkaiu76.pfb></usr/local/texlive/2023basic/texmf-dist/fonts/type1/arphic/bkaiu/bkaiu77.pfb></usr/local/texlive/2023basic/texmf-dist/fonts/type1/arphic/bkaiu/bkaiu78.pfb></usr/local/texlive/2023basic/texmf-dist/fonts/type1/arphic/bkaiu/bkaiu79.pfb></usr/local/texlive/2023basic/texmf-dist/fonts/type1/arphic/bkaiu/bkaiu7a.pfb></usr/local/texlive/2023basic/texmf-dist/fonts/type1/arphic/bkaiu/bkaiu7b.pfb></usr/local/texlive/2023basic/texmf-dist/fonts/type1/arphic/bkaiu/bkaiu7c.pfb></usr/local/texlive/2023basic/texmf-dist/fonts/type1/arphic/bkaiu/bkaiu7d.pfb></usr/local/texlive/2023basic/texmf-dist/fonts/type1/arphic/bkaiu/bkaiu7e.pfb></usr/local/texlive/2023basic/texmf-dist/fonts/type1/arphic/bkaiu/bkaiu7f.pfb></usr/local/texlive/2023basic/texmf-dist/fonts/type1/arphic/bkaiu/bkaiu80.pfb></usr/local/texlive/2023basic/texmf-dist/fonts/type1/arphic/bkaiu/bkaiu81.pfb></usr/local/texlive/2023basic/texmf-dist/fonts/type1/arphic/bkaiu/bkaiu82.pfb></usr/local/texlive/2023basic/texmf-dist/fonts/type1/arphic/bkaiu/bkaiu83.pfb></usr/local/texlive/2023basic/texmf-dist/fonts/type1/arphic/bkaiu/bkaiu84.pfb></usr/local/texlive/2023basic/texmf-dist/fonts/type1/arphic/bkaiu/bkaiu85.pfb></usr/local/texlive/2023basic/texmf-dist/fonts/type1/arphic/bkaiu/bkaiu86.pfb></usr/local/texlive/2023basic/texmf-dist/fonts/type1/arphic/bkaiu/bkaiu87.pfb></usr/local/texlive/2023basic/texmf-dist/fonts/type1/arphic/bkaiu/bkaiu88.pfb></usr/local/texlive/2023basic/texmf-dist/fonts/type1/arphic/bkaiu/bkaiu89.pfb></usr/local/texlive/2023basic/texmf-dist/fonts/type1/arphic/bkaiu/bkaiu8a.pfb></usr/local/texlive/2023basic/texmf-dist/fonts/type1/arphic/bkaiu/bkaiu8b.pfb></usr/local/texlive/2023basic/texmf-dist/fonts/type1/arphic/bkaiu/bkaiu8c.pfb></usr/local/texlive/2023basic/texmf-dist/fonts/type1/arphic/bkaiu/bkaiu8d.pfb></usr/local/texlive/2023basic/texmf-dist/fonts/type1/arphic/bkaiu/bkaiu8e.pfb></usr/local/texlive/2023basic/texmf-dist/fonts/type1/arphic/bkaiu/bkaiu8f.pfb></usr/local/texlive/2023basic/texmf-dist/fonts/type1/arphic/bkaiu/bkaiu90.pfb></usr/local/texlive/2023basic/texmf-dist/fonts/type1/arphic/bkaiu/bkaiu91.pfb></usr/local/texlive/2023basic/texmf-dist/fonts/type1/arphic/bkaiu/bkaiu92.pfb></usr/local/texlive/2023basic/texmf-dist/fonts/type1/arphic/bkaiu/bkaiu93.pfb></usr/local/texlive/2023basic/texmf-dist/fonts/type1/arphic/bkaiu/bkaiu94.pfb></usr/local/texlive/2023basic/texmf-dist/fonts/type1/arphic/bkaiu/bkaiu95.pfb></usr/local/texlive/2023basic/texmf-dist/fonts/type1/arphic/bkaiu/bkaiu96.pfb></usr/local/texlive/2023basic/texmf-dist/fonts/type1/arphic/bkaiu/bkaiu97.pfb></usr/local/texlive/2023basic/texmf-dist/fonts/type1/arphic/bkaiu/bkaiu98.pfb></usr/local/texlive/2023basic/texmf-dist/fonts/type1/arphic/bkaiu/bkaiu99.pfb></usr/local/texlive/2023basic/texmf-dist/fonts/type1/arphic/bkaiu/bkaiu9a.pfb></usr/local/texlive/2023basic/texmf-dist/fonts/type1/arphic/bkaiu/bkaiu9e.pfb></usr/local/texlive/2023basic/texmf-dist/fonts/type1/arphic/bkaiu/bkaiuff.pfb></usr/local/texlive/2023basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2023basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx8.pfb></usr/local/texlive/2023basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2023basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2023basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2023basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/local/texlive/2023basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
+Output written on article.pdf (16 pages, 20002653 bytes).
 PDF statistics:
- 826 PDF objects out of 1000 (max. 8388607)
- 505 compressed objects within 6 object streams
- 89 named destinations out of 1000 (max. 500000)
- 580 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 850 PDF objects out of 1000 (max. 8388607)
+ 523 compressed objects within 6 object streams
+ 91 named destinations out of 1000 (max. 500000)
+ 585 words of extra memory for PDF output out of 10000 (max. 10000000)
 

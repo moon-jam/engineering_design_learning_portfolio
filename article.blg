@@ -1,46 +1,56 @@
 This is BibTeX, Version 0.99d (TeX Live 2023)
 Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
 The top-level auxiliary file: article.aux
-The style file: unsrt.bst
+The style file: apacite.bst
+Reallocated glb_str_ptr (elt_size=4) to 20 items from 10.
+Reallocated global_strs (elt_size=200001) to 20 items from 10.
+Reallocated glb_str_end (elt_size=4) to 20 items from 10.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated wiz_functions (elt_size=4) to 9000 items from 6000.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
 Database file #1: references.bib
+apacite.bst [2013/07/21 v6.03 APA bibliography style]
 You've used 7 entries,
-            1791 wiz_defined-function locations,
-            486 strings with 4572 characters,
-and the built_in function-call counts, 923 in all, are:
-= -- 77
-> -- 28
-< -- 0
-+ -- 14
-- -- 7
-* -- 9
-:= -- 149
-add.period$ -- 21
+            6951 wiz_defined-function locations,
+            1307 strings with 11692 characters,
+and the built_in function-call counts, 9219 in all, are:
+= -- 1148
+> -- 70
+< -- 356
++ -- 299
+- -- 24
+* -- 494
+:= -- 1627
+add.period$ -- 35
 call.type$ -- 7
-change.case$ -- 7
+change.case$ -- 105
 chr.to.int$ -- 0
-cite$ -- 7
-duplicate$ -- 35
-empty$ -- 127
-format.name$ -- 7
-if$ -- 218
+cite$ -- 14
+duplicate$ -- 193
+empty$ -- 449
+format.name$ -- 98
+if$ -- 1888
 int.to.chr$ -- 0
-int.to.str$ -- 7
+int.to.str$ -- 21
 missing$ -- 0
-newline$ -- 38
-num.names$ -- 7
-pop$ -- 42
+newline$ -- 157
+num.names$ -- 56
+pop$ -- 489
 preamble$ -- 1
-purify$ -- 0
+purify$ -- 26
 quote$ -- 0
-skip$ -- 21
+skip$ -- 459
 stack$ -- 0
-substring$ -- 0
-swap$ -- 7
-text.length$ -- 0
+substring$ -- 329
+swap$ -- 93
+text.length$ -- 17
 text.prefix$ -- 0
-top$ -- 0
-type$ -- 0
+top$ -- 1
+type$ -- 560
 warning$ -- 0
-while$ -- 7
-width$ -- 8
-write$ -- 72
+while$ -- 33
+width$ -- 0
+write$ -- 170

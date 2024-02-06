@@ -1,38 +1,157 @@
-\begin{thebibliography}{1}
+\begin{thebibliography}{}
 
-\bibitem{whatBLDC}
-{Taiwan Oriental Motor Co., Ltd}.
-\newblock 第28回 「何謂dc無刷馬達？」.
-\newblock \url{https://www.orientalmotor.com.tw/teruyo_det/teruyo_28/}, 2024.
+\bibitem [\protect \citeauthoryear {%
+Bodnar%
+}{%
+Bodnar%
+}{%
+{\protect \APACyear {2018}}%
+}]{%
+Fidget_Spinner_Motors}
+\APACinsertmetastar {%
+Fidget_Spinner_Motors}%
+\begin{APACrefauthors}%
+Bodnar, D.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2018}{}{}.
+\newblock
+\APACrefbtitle {Fidget Spinner Motors.} {Fidget spinner motors.}
+\newblock
+\APAChowpublished {\url{http://trainelectronics.com/FidgetSpinner/}}.
+\PrintBackRefs{\CurrentBib}
 
-\bibitem{BLDCtheory1}
-{DMP Electronics Inc}.
-\newblock Roboard 研習營 馬達 基本認識 與 bldc 驅動實驗.
-\newblock \url{https://www.slideserve.com/billy/roboard-bldc}, 2014.
+\bibitem [\protect \citeauthoryear {%
+Components101%
+}{%
+Components101%
+}{%
+{\protect \APACyear {2020}}%
+}]{%
+whatMosfet}
+\APACinsertmetastar {%
+whatMosfet}%
+\begin{APACrefauthors}%
+Components101.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2020}{}{}.
+\newblock
+\APACrefbtitle {Fundamentals of MOSFETs and Their Working.} {Fundamentals of mosfets and their working.}
+\newblock
+\APAChowpublished {\url{https://components101.com/articles/mosfet-symbol-working-operation-types-and-applications}}.
+\PrintBackRefs{\CurrentBib}
 
-\bibitem{BLDCtheory2}
-國立成功大學馬達科技研究中心.
-\newblock 直流無刷馬達.
-\newblock \url{http://km.emotors.ncku.edu.tw/emotor/worklog/EMTRC/motor_learn/elearning/motor/1/lecture_1.4.pdf}, n.d.
+\bibitem [\protect \citeauthoryear {%
+{Creative Think}%
+}{%
+{Creative Think}%
+}{%
+{\protect \APACyear {2023}}%
+}]{%
+BLmoterVideo}
+\APACinsertmetastar {%
+BLmoterVideo}%
+\begin{APACrefauthors}%
+{Creative Think}.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2023}{}{}.
+\newblock
+\APACrefbtitle {Making 6 Core Permanent Magnetic Motor.} {Making 6 core permanent magnetic motor.}
+\newblock
+\APAChowpublished {\url{https://youtu.be/4tTS13WZG2A}}.
+\PrintBackRefs{\CurrentBib}
 
-\bibitem{whatHall}
-Manny Soltero.
-\newblock 什麼是霍爾效應感測器？.
-\newblock \url{https://e2e.ti.com/blogs_/taiwan/b/taiwan1/posts/what-is-a-hall-effect-sensor}, 2021.
+\bibitem [\protect \citeauthoryear {%
+{DMP Electronics Inc}%
+}{%
+{DMP Electronics Inc}%
+}{%
+{\protect \APACyear {2014}}%
+}]{%
+BLDCtheory1}
+\APACinsertmetastar {%
+BLDCtheory1}%
+\begin{APACrefauthors}%
+{DMP Electronics Inc}.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2014}{}{}.
+\newblock
+\APACrefbtitle {RoBoard 研習營 馬達 基本認識 與 BLDC 驅動實驗.} {Roboard 研習營 馬達 基本認識 與 bldc 驅動實驗.}
+\newblock
+\APAChowpublished {\url{https://www.slideserve.com/billy/roboard-bldc}}.
+\PrintBackRefs{\CurrentBib}
 
-\bibitem{whatMosfet}
-Components101.
-\newblock Fundamentals of mosfets and their working.
-\newblock \url{https://components101.com/articles/mosfet-symbol-working-operation-types-and-applications}, 2020.
+\bibitem [\protect \citeauthoryear {%
+Soltero%
+}{%
+Soltero%
+}{%
+{\protect \APACyear {2021}}%
+}]{%
+whatHall}
+\APACinsertmetastar {%
+whatHall}%
+\begin{APACrefauthors}%
+Soltero, M.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2021}{}{}.
+\newblock
+\APACrefbtitle {什麼是霍爾效應感測器？.} {什麼是霍爾效應感測器？.}
+\newblock
+\APAChowpublished {\url{https://e2e.ti.com/blogs_/taiwan/b/taiwan1/posts/what-is-a-hall-effect-sensor}}.
+\PrintBackRefs{\CurrentBib}
 
-\bibitem{Fidget_Spinner_Motors}
-D.~Bodnar.
-\newblock Fidget spinner motors.
-\newblock \url{http://trainelectronics.com/FidgetSpinner/}, 2018.
+\bibitem [\protect \citeauthoryear {%
+{Taiwan Oriental Motor Co., Ltd}%
+}{%
+{Taiwan Oriental Motor Co., Ltd}%
+}{%
+{\protect \APACyear {{\protect \bibnodate {}}}}%
+}]{%
+whatBLDC}
+\APACinsertmetastar {%
+whatBLDC}%
+\begin{APACrefauthors}%
+{Taiwan Oriental Motor Co., Ltd}.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{{\protect \bibnodate {}}}{}{}.
+\newblock
+\APACrefbtitle {第28回 「何謂DC無刷馬達？」.} {第28回 「何謂dc無刷馬達？」.}
+\newblock
+\APAChowpublished {\url{https://www.orientalmotor.com.tw/teruyo_det/teruyo_28/}}.
+\PrintBackRefs{\CurrentBib}
 
-\bibitem{BLmoterVideo}
-{Creative Think}.
-\newblock Making 6 core permanent magnetic motor.
-\newblock \url{https://youtu.be/4tTS13WZG2A}, 2023.
+\bibitem [\protect \citeauthoryear {%
+國立成功大學馬達科技研究中心%
+}{%
+國立成功大學馬達科技研究中心%
+}{%
+{\protect \APACyear {{\protect \bibnodate {}}}}%
+}]{%
+BLDCtheory2}
+\APACinsertmetastar {%
+BLDCtheory2}%
+\begin{APACrefauthors}%
+國立成功大學馬達科技研究中心.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{{\protect \bibnodate {}}}{}{}.
+\newblock
+\APACrefbtitle {直流無刷馬達.} {直流無刷馬達.}
+\newblock
+\APAChowpublished {\url{http://km.emotors.ncku.edu.tw/emotor/worklog/EMTRC/motor_learn/elearning/motor/1/lecture_1.4.pdf}}.
+\PrintBackRefs{\CurrentBib}
 
 \end{thebibliography}
